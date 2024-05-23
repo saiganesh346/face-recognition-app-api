@@ -6,7 +6,7 @@ const knex = require("knex");
 
 const app = express();
 
-const db = knex({ 
+const db = knex({
     client: 'pg',
     connection: {
       host: '127.0.0.1',
