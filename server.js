@@ -6,13 +6,13 @@ const knex = require("knex");
 
 const app = express();
 
-const db = knex({
+const db = knex({ 
     client: 'pg',
-    connection: {
+    connection: { 
       host: '127.0.0.1',
       port: 5432,
       user: 'postgres',
-      password: 'Saiganesh@346',
+      password: '', 
       database: 'smart-brain'
     }
   });
